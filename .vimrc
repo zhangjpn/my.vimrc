@@ -19,6 +19,7 @@ set incsearch
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify'
 Plug 'yggdroot/indentline'
+" try pip install pylama if errors raised from lint.vim
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'

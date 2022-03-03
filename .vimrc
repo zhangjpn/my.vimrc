@@ -3,6 +3,8 @@ let mapleader=','
 "autocmd vimenter * NERDTree
 colorscheme elflord
 set tabstop=4
+" tab to space4
+set expandtab
 set softtabstop=4
 set shiftwidth=4
 set autoindent
